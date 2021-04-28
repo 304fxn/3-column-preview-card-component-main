@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f2f2f2;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 90%;
+  padding: 2rem 0;
+}
+
+.container .box {
+  padding: 2.7rem;
+}
+
+.container .box img {
+  width: 20%;
+}
+
+.container .box h2 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.1rem;
+  margin: 1.5rem 0;
+}
+
+.container .box p {
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.7;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.8rem;
+  width: 80%;
+  margin-bottom: 1rem;
+}
+
+.container .box button {
+  border-radius: 50px;
+  border: 0;
+  padding: 0.8rem 2rem;
+  color: #e38826;
+}
+
+.container .box:nth-child(1) {
+  background-color: #e38826;
+  border-radius: 10px 10px 0 0;
+}
+
+.container .box:nth-child(1) button {
+  color: #e38826;
+}
+
+.container .box:nth-child(2) {
+  background-color: #006970;
+}
+
+.container .box:nth-child(2) button {
+  color: #006970;
+}
+
+.container .box:nth-child(3) {
+  background-color: #004241;
+  border-radius: 0 0 10px 10px;
+}
+
+.container .box:nth-child(3) button {
+  color: #004241;
+}
+
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .container .box {
+    width: 12rem;
+  }
+  .container .box p {
+    width: 94%;
+    line-height: 1.85;
+  }
+  .container .box button {
+    margin-top: 5rem;
+  }
+  .container .box:nth-child(1) {
+    border-radius: 10px 0 0 10px;
+  }
+  .container .box:nth-child(2) {
+    border-radius: 0;
+  }
+  .container .box:nth-child(3) {
+    border-radius: 0 10px 10px 0;
+  }
+}

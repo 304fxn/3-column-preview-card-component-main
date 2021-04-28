@@ -1,0 +1,96 @@
+@import "config";
+
+body {
+  background-color: $Very-Light-Gray;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 90%;
+  padding: 2rem 0;
+  .box {
+    padding: 2.7rem;
+
+    img {
+      width: 20%;
+    }
+
+    h2 {
+      font-family: "Big Shoulders Display", cursive;
+      font-size: 2.1rem;
+      margin: 1.5rem 0;
+    }
+
+    p {
+      color: $Transparent-White;
+      line-height: 1.7;
+      font-family: "Lexend Deca", sans-serif;
+      font-size: 0.8rem;
+      width: 80%;
+      margin-bottom: 1rem;
+    }
+
+    button {
+      border-radius: 50px;
+      border: 0;
+      padding: 0.8rem 2rem;
+      color: $Bright-Orange;
+    }
+  }
+
+  .box:nth-child(1) {
+    background-color: $Bright-Orange;
+    border-radius: 10px 10px 0 0;
+    button {
+      color: $Bright-Orange;
+    }
+  }
+  .box:nth-child(2) {
+    background-color: $Dark-Cyan;
+    button {
+      color: $Dark-Cyan;
+    }
+  }
+  .box:nth-child(3) {
+    background-color: $Very-Dark-Cyan;
+    border-radius: 0 0 10px 10px;
+    button {
+      color: $Very-Dark-Cyan;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+    .box {
+      width: 12rem;
+      p {
+        width: 94%;
+        line-height: 1.85;
+      }
+      button {
+        margin-top: 5rem;
+      }
+    }
+
+    .box:nth-child(1) {
+      border-radius: 10px 0 0 10px;
+    }
+    .box:nth-child(2) {
+      border-radius: 0;
+    }
+    .box:nth-child(3) {
+      border-radius: 0 10px 10px 0;
+    }
+  }
+}

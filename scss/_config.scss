@@ -1,0 +1,21 @@
+// Primary
+
+$Bright-Orange: hsl(31, 77%, 52%);
+$Dark-Cyan: hsl(184, 100%, 22%);
+$Very-Dark-Cyan: hsl(179, 100%, 13%);
+
+// Neutral
+
+$Transparent-White: hsla(0, 0%, 100%, 0.75); // paragraphs
+$Very-Light-Gray: hsl(0, 0%, 95%); // background, headings, buttons
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+// font-family: 'Lexend Deca', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+// font-family: 'Big Shoulders Display', cursive;
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
