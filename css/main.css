@@ -103,3 +103,8 @@ body {
     border-radius: 0 10px 10px 0;
   }
 }
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.85;
+}
